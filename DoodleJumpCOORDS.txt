@@ -1,0 +1,24 @@
+if rec_x == pad_x and rec_y == pad_y-45:
+	dy = -dy
+
+if rec_x(150) > pad_x < pad_x + 80 and rec_y > pad_y-45:
+	dy = -dy
+
+if rec_x < pad_x > pad_x - 50 and rec_y > pad_y-45:
+	dy = -dy
+
+if 100rec == 100pad
+	dy = -dy
+
+if 150rec > 100pad < 180pad
+	dy = - dy
+
+------------------------------------------------------------------
+if rec_x == pad_x and pad_y > rec_y > pad_y-45:
+        dy = -dy
+
+if pad_x < rec_x < pad_x + 80 and pad_y > rec_y > pad_y-45:
+	dy = -dy
+
+if pad_x > rec_x > pad_x - 50 and pad_y > rec_y > pad_y-45:
+	dy = -dy
