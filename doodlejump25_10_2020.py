@@ -84,50 +84,39 @@ def move():
         dy = -dy
 
 ######################################################################################################################
-    if rec_x == pad_x1 and pad_y1 > rec_y > pad_y1-50 and dy > 0:                                                       # Platform_Reflection
+    if rec_x == pad_x1 and pad_y1 > rec_y > pad_y1-50 and dy > 0 and rec_y < pad_y1 - 43:                                                       # Platform_Reflection
         dy = -dy
-
-    if pad_x1 < rec_x < pad_x1 + 70 and pad_y1 > rec_y > pad_y1-50 and dy > 0:
+    if pad_x1 < rec_x < pad_x1 + 70 and pad_y1 > rec_y > pad_y1-50 and dy > 0  and rec_y < pad_y1 - 43:
         dy = -dy
-
-    if pad_x1 > rec_x > pad_x1 - 50 and pad_y1 > rec_y > pad_y1-50 and dy > 0:
+    if pad_x1 > rec_x > pad_x1 - 50 and pad_y1 > rec_y > pad_y1-50 and dy > 0 and rec_y < pad_y1 - 43:
         dy = -dy
 ######################################################################################################################
-
-    if rec_x == pad_x2 and pad_y2 > rec_y > pad_y2 - 50 and dy > 0:                                                     # Platform_Reflection
+    if rec_x == pad_x2 and pad_y2 > rec_y > pad_y2 - 50 and dy > 0 and rec_y < pad_y2 - 43:                                                     # Platform_Reflection
         dy = -dy
-
-    if pad_x2 < rec_x < pad_x2 + 70 and pad_y2 > rec_y > pad_y2 - 50 and dy > 0:
+    if pad_x2 < rec_x < pad_x2 + 70 and pad_y2 > rec_y > pad_y2 - 50 and dy > 0 and rec_y < pad_y2 - 43:
         dy = -dy
-
-    if pad_x2 > rec_x > pad_x2 - 50 and pad_y2 > rec_y > pad_y2 - 50 and dy > 0:
+    if pad_x2 > rec_x > pad_x2 - 50 and pad_y2 > rec_y > pad_y2 - 50 and dy > 0 and rec_y < pad_y2 - 43:
         dy = -dy
 ######################################################################################################################
-    if rec_x == pad_x3 and pad_y3 > rec_y > pad_y3 - 50 and dy > 0:                                                     # Platform_Reflection
+    if rec_x == pad_x3 and pad_y3 > rec_y > pad_y3 - 50 and dy > 0 and rec_y < pad_y3 - 43:                                                     # Platform_Reflection
         dy = -dy
-
-    if pad_x3 < rec_x < pad_x3 + 70 and pad_y3 > rec_y > pad_y3 - 50 and dy > 0:
+    if pad_x3 < rec_x < pad_x3 + 70 and pad_y3 > rec_y > pad_y3 - 50 and dy > 0 and rec_y < pad_y3 - 43:
         dy = -dy
-
-    if pad_x3 > rec_x > pad_x3 - 50 and pad_y3 > rec_y > pad_y3 - 50 and dy > 0:
+    if pad_x3 > rec_x > pad_x3 - 50 and pad_y3 > rec_y > pad_y3 - 50 and dy > 0 and rec_y < pad_y3 - 43:
         dy = -dy
 ######################################################################################################################
-    if rec_x == pad_x4 and pad_y4 > rec_y > pad_y4 - 50 and dy > 0:                                                     # Platform_Reflection
+    if rec_x == pad_x4 and pad_y4 > rec_y > pad_y4 - 50 and dy > 0 and rec_y < pad_y4 - 43:                                                     # Platform_Reflection
         dy = -dy
-
-    if pad_x4 < rec_x < pad_x4 + 70 and pad_y4 > rec_y > pad_y4 - 50 and dy > 0:
+    if pad_x4 < rec_x < pad_x4 + 70 and pad_y4 > rec_y > pad_y4 - 50 and dy > 0 and rec_y < pad_y4 - 43:
         dy = -dy
-
-    if pad_x4 > rec_x > pad_x4 - 50 and pad_y4 > rec_y > pad_y4 - 50 and dy > 0:
+    if pad_x4 > rec_x > pad_x4 - 50 and pad_y4 > rec_y > pad_y4 - 50 and dy > 0 and rec_y < pad_y4 - 43:
         dy = -dy
 ######################################################################################################################
-    if rec_x == pad_x5 and pad_y5 > rec_y > pad_y5 - 50 and dy > 0:                                                     # Platform_Reflection
+    if rec_x == pad_x5 and pad_y5 > rec_y > pad_y5 - 50 and dy > 0 and rec_y < pad_y5 - 43:                                                     # Platform_Reflection
         dy = -dy
-
-    if pad_x5 < rec_x < pad_x5 + 70 and pad_y5 > rec_y > pad_y5 - 50 and dy > 0:
+    if pad_x5 < rec_x < pad_x5 + 70 and pad_y5 > rec_y > pad_y5 - 50 and dy > 0 and rec_y < pad_y5 - 43:
         dy = -dy
-
-    if pad_x5 > rec_x > pad_x5 - 50 and pad_y5 > rec_y > pad_y5 - 50 and dy > 0:
+    if pad_x5 > rec_x > pad_x5 - 50 and pad_y5 > rec_y > pad_y5 - 50 and dy > 0 and rec_y < pad_y5 - 43:
         dy = -dy
 ######################################################################################################################
     window.coords(doodler, rec_x, rec_y, rec_x + 50, rec_y + 50)    # I_do_not_remember
