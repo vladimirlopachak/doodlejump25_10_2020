@@ -9,13 +9,13 @@ window.pack()
 dx = 0          # Horizontal_speed_doodler
 dy = -6        # Vertical_speed_doodler
 
-rec_x = 100     # Doodler_x_coordinates
+rec_x = 110     # Doodler_x_coordinates
 rec_y = 550     # Doodler_y_coordinates
 
 pad_x1 = 100    # Pad(1)_x_coordinates
 pad_y1 = 600    # Pad(1)_y_coordinates
 
-pad_x2 = (randint(150, 410))     # Pad(2)_x_coordinates
+pad_x2 = (randint(200, 410))     # Pad(2)_x_coordinates
 pad_y2 = 480                    # Pad(2)_y_coordinates
 
 pad_x3 = (randint(0, 410))     # Pad(3)_x_coordinates
