@@ -87,6 +87,7 @@ def platforms():
     pad5 = window.create_rectangle(pad_x5, pad_y5, pad_x5 + 70, pad_y5 + 15, fill="white")  # Create_the_platform(5)
 
 def move():
+    global distance
     global defscore
     global score
     global pad_reflection1
@@ -128,13 +129,13 @@ def move():
     if rec_y > 800:             # Game_Over
         rec_y = - 100
         window.delete(defscore)
-        game_over_text1 = window.create_text(240, 300, anchor=N, text="  Game Over", font="None 20", fill="red")
+        game_over_text1 = window.create_text(240, 290, anchor=N, text="  Game Over", font="None 20", fill="red")
         window.pack()
 
-        game_over_text = window.create_text(235, 332, anchor=N, text="Total score:", font="None 20", fill="white")
+        game_over_text2 = window.create_text(252, 322, anchor=N, text="Total score:", font="None 20", fill="white")
         window.pack()
 
-        game_over_score = window.create_text(327, 333, anchor=N, text=score, font="None 20", fill="white")
+        game_over_score = window.create_text(250, 354, anchor=N, text=score, font="None 20", fill="white")
         window.pack()
 
         window.delete(doodler)
